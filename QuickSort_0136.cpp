@@ -112,5 +112,7 @@ int main()
         system("cls");
 
     } while (true);
+
+    return 0;
 }
 
