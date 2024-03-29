@@ -85,7 +85,12 @@ void display() {
     cout << "Sorted Arrray " << endl;
     cout << "--------------" << endl;
 
-   
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << "\n\nNumber of comparasions: " << cmp_count << endl;
 }
 
 
